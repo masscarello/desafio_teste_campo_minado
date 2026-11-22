@@ -1,0 +1,15 @@
+{
+  "name": "desafio_teste_campo_minado",
+  "version": "1.0.0",
+  "description": "Desafio de testes - Campo Minado 18x14 com 40 minas (JavaScript testando JavaScript)",
+  "type": "module",
+  "main": "lib/campoMinado.mjs",
+  "scripts": {
+    "test": "node --test",
+    "test:unit": "node --test \"tests/unit/**/*.test.mjs\"",
+    "test:integration": "node --test \"tests/integration/**/*.test.mjs\""
+  },
+  "engines": { "node": ">=20" },
+  "author": "Matheus De Oliveira Mascarello",
+  "license": "MIT"
+}
